@@ -1,15 +1,11 @@
-body {
-  background-color: beige;
-}
-
-h1 {
-  color: red;
-}
-
 .credit {
   background: yellow;
 }
 
 .backGround {
   background: beige;
+}
+
+.logIn {
+  background: red;
 }
