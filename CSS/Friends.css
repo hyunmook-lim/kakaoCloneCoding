@@ -1,11 +1,45 @@
+.body {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
 .navbar {
     display: flex;
-    list-style: none;
     justify-content: space-between;
-    padding: 10px 10px;
+    padding: 15px 10px;
+    position: sticky;
+    bottom: 10px;
+    background-color: white;
+    margin: 0 0;
 }
 
 .navbar a {
     text-decoration: none;
     color: black;
+}
+
+.mypicture {
+    width: 50px;
+    border-radius: 20px;
+}
+
+.birthday_list {
+    list-style: none;
+}
+
+.all_friends p:hover {
+    background-color: rgba(128, 128, 128, 0.315);
+    border-radius: 5px;
+}
+.bookmark_list p:hover {
+    background-color: rgba(128, 128, 128, 0.315);
+    border-radius: 5px;
+}
+.birthday_list p:hover {
+    background-color: rgba(128, 128, 128, 0.315);
+    border-radius: 5px;
+}
+
+.all_friends img {
+    width: 50px;
 }
