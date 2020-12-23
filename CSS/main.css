@@ -1,11 +1,50 @@
 .credit {
   background: yellow;
+  text-align: end;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+div {
+  border: 5px solid black;
+  margin: 2px;
 }
 
 .backGround {
-  background: beige;
+  background-image: url('../source/backGround.jpg');
+  background-size: cover;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
 }
 
 .logIn {
+  margin-top: 20%;
   background: red;
+  display: inline-block;
+  border: 5px solid black;
+  height: max-content;
+}
+
+#ID,
+#PW {
+  display: flex;
+  flex-direction: row;
+}
+
+#IDlogo,
+#PWlogo {
+  width: 20%;
+  text-align: center;
+}
+
+#IDinput,
+#PWinput {
+  width: 80%;
+  display: flex;
 }
