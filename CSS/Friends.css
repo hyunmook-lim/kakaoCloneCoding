@@ -1,5 +1,5 @@
-.body {
-    margin-bottom: 0;
+body {
+    margin: 0 0;
     padding-bottom: 0;
 }
 
@@ -15,7 +15,6 @@
 
 .navbar a {
     text-decoration: none;
-    color: black;
 }
 
 .mypicture {
@@ -42,4 +41,38 @@
 
 .all_friends img {
     width: 50px;
+}
+
+.top_list {
+    list-style: none;
+    display: flex;
+}
+
+.top_navbar {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding-bottom: 5px;
+    display: flex;
+}
+
+.top_list {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.친구 {
+    position: fixed;
+    left: 5px;
+    top: 5px;
+    padding: 5px 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.top_list {
+    position: fixed;
+    right: 5px;
+    top: 5px;
+    padding: 5px 5px;
 }
