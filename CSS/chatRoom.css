@@ -1,13 +1,45 @@
+html,
+body {
+  margin: 0 0;
+  height: 100%;
+  width: 100%;
+}
+
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 10px;
-    position: sticky;
-    bottom: 10px;
-    background-color: white;
-    margin: 0 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px;
+  position: sticky;
+  bottom: 10px;
+  background-color: yellow;
+  margin: 0 0;
 }
 
 .navbar a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+.chatList {
+  background-color: blueviolet;
+  border: 2px solid black;
+  width: 100%;
+  height: 100%;
+}
+
+.chat {
+  position: fixed;
+  bottom: 5px;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+#chatting {
+  width: 90%;
+}
+
+#send {
+  width: 10%;
+  margin-left: 5px;
 }

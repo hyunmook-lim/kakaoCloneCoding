@@ -9,11 +9,6 @@ body {
   height: 100%;
 }
 
-div {
-  border: 5px solid black;
-  margin: 2px;
-}
-
 .backGround {
   background-image: url('../source/backGround.jpg');
   background-size: cover;
@@ -27,7 +22,6 @@ div {
   margin-top: 20%;
   background: red;
   display: inline-block;
-  border: 5px solid black;
   height: max-content;
 }
 
@@ -41,10 +35,19 @@ div {
 #PWlogo {
   width: 20%;
   text-align: center;
+  background: yellow;
+  border-bottom: 1px solid black;
 }
 
 #IDinput,
 #PWinput {
   width: 80%;
   display: flex;
+}
+
+#Button {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  justify-content: center;
 }
