@@ -126,9 +126,11 @@ body {
 }
 .search_box {
     display: none;
-    border-radius: 20px;
+    border-radius: 5px;
     position: fixed;
     right: 0;
+    width: 140px;
+    height: 20px;
 }
 
 .search_box.active {
