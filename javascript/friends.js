@@ -22,4 +22,18 @@ bookmark_button.addEventListener('click', () => {
 	bookmark_list.classList.toggle('active');
 })
 
+const plus_button = document.querySelector('.plus_button')
+const top_navbar = document.querySelector('.top_navbar')
+const plus_friends = document.querySelector('.plus_friends')
 
+plus_button.addEventListener('click', () => {
+	top_navbar.classList.toggle('active');
+	plus_friends.classList.toggle('active');
+})
+
+const back_button = document.querySelector('.back_button')
+
+back_button.addEventListener('click', ()=> {
+	top_navbar.classList.toggle('active');
+	plus_friends.classList.toggle('active');
+})

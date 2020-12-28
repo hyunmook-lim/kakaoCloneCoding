@@ -158,3 +158,39 @@ body {
 .bookmark_list.active {
     display: block;
 }
+
+.plus_friends {
+    display: none;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 10px 10px;
+    margin-top: 0;
+}
+
+.plus_friends_top {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.plus_friends_contents {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.plus_text {
+    font-size: 12px;
+    text-align: center;
+}
+
+.top_navbar.active {
+    display: none;
+}
+
+.plus_friends.active {
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+}
