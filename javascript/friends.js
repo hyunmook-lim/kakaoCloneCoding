@@ -37,3 +37,17 @@ back_button.addEventListener('click', ()=> {
 	top_navbar.classList.toggle('active');
 	plus_friends.classList.toggle('active');
 })
+
+
+function register() {
+	var friend_name=document.getElementById('friend_name').value
+	var pp = document.createElement('p');
+	var text = document.createTextNode(`  ${friend_name}`);
+	var img = document.createElement('img');
+	img.setAttribute("src", "../source/profile.jpg");
+	img.setAttribute("width", "50px");
+	pp.appendChild(img);
+	pp.appendChild(text)
+	document.getElementById('all_friends').appendChild(pp)
+}
+

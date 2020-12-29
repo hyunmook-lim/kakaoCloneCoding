@@ -11,9 +11,9 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 15px 10px;
+    padding: 20px 10px;
     position: sticky;
-    bottom: 10px;
+    bottom: 0;
     background-color: white;
     margin: 0 0;
 }
@@ -152,11 +152,11 @@ body {
 }
 
 .bookmark_list {
-    display: none;
+    display: block;
 }
 
 .bookmark_list.active {
-    display: block;
+    display: none;
 }
 
 .plus_friends {
@@ -172,6 +172,7 @@ body {
     color: black;
     font-size: 20px;
     font-weight: 600;
+    padding-bottom: 20px;
 }
 
 .plus_friends_contents {

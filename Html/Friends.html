@@ -31,7 +31,7 @@
 			친구추가
 		</div>
 		<div class="plus_friends_contents">
-			<div style="">
+			<div>
 				<div>
 					<a href="#"><img src="../source/qr-code (1).png" style="width: 30px"></a>
 				</div>
@@ -49,7 +49,7 @@
 			</div>
 			<div>
 				<div>
-					<a href="#"><img src="../source/id.png" style="width: 30px"></a>
+					<a href="#" onclick="create_friend ()"><img src="../source/id.png" style="width: 30px"></a>
 				</div>
 				<div class="plus_text">
 					ID로 추가
@@ -72,6 +72,8 @@
 		</div>
 		<div class="birthday">
 			<p class="birthday_friends">생일인 친구</p>
+			<input type="text" name="friend_name" id="friend_name" placeholder="친구 이름 입력하시오">
+			<input type="button" value="등록" id="register_button" onclick="register()">
 			<ul class="birthday_list">
 				<p>
 					<img src="../source/profile.jpg">
@@ -90,7 +92,7 @@
 		<div class="bookmark">
 			<ul class="bookmark_friends">
 				<li>즐겨찾기</li>
-				<li><a href="#" class="bookmark_button" id="3434"><i id="arrowbutton" class="fas fa-chevron-down"  style="text-decoration: none; color: gray;"></i></a></li>
+				<li><a href="#" class="bookmark_button" id="3434"><i id="arrowbutton" class="fas fa-chevron-up"  style="text-decoration: none; color: gray;"></i></a></li>
 			</ul>
 			<ul class="bookmark_list">
 				<p><img src="../source/profile.jpg">
@@ -118,7 +120,7 @@
 			<p class="freinds_number">
 				친구 53
 			</p>
-			<ul class="all_friends">
+			<ul class="all_friends" id="all_friends">
 				<p>
 					<img src="../source/profile.jpg">
 					고영민
