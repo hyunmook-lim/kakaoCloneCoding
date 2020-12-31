@@ -35,7 +35,7 @@ const back_button = document.querySelector('.back_button')
 
 back_button.addEventListener('click', ()=> {
 	top_navbar.classList.toggle('active');
-	plus_friends.classList.toggle('active');
+	plus_friends.classList.toggle('active')
 })
 
 
@@ -50,4 +50,13 @@ function register() {
 	pp.appendChild(text)
 	document.getElementById('all_friends').appendChild(pp)
 }
+
+const plus_text = document.querySelector('.plus_text');
+const register1 = document.querySelector('.register');
+
+
+function create_friend() {
+	register1.classList.toggle('active')
+}
+
 

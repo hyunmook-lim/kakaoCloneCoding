@@ -22,7 +22,7 @@
 	</nav>
 	<navbar class="search_bar">
 		<p>
-			<input type="text" name="search_box" placeholder="친구 검색" class="search_box">
+			<input type="text" name="search_box" onkeyup="searching()" placeholder="친구 검색" class="search_box" id="searching_box">
 		</p>
 	</navbar>
 	<div class="plus_friends">
@@ -33,7 +33,7 @@
 		<div class="plus_friends_contents">
 			<div>
 				<div>
-					<a href="#"><img src="../source/qr-code (1).png" style="width: 30px"></a>
+					<a href="#" onclick="alert('준비중인 기능입니다.')"><img src="../source/qr-code (1).png" style="width: 30px"></a>
 				</div>
 				<div class="plus_text">
 					QR코드
@@ -41,7 +41,7 @@
 			</div>
 			<div>
 				<div>
-					<a href="#"><img src="../source/phonebook.png" style="width: 30px"></a>
+					<a href="#" onclick="alert('준비중인 기능입니다.')"><img src="../source/phonebook.png" style="width: 30px"></a>
 				</div>
 				<div class="plus_text">
 					연락처로 추가
@@ -57,12 +57,16 @@
 			</div>
 			<div>
 				<div>
-					<a href="#"><img src="../source/friendsP.png" style="width: 30px"></a>
+					<a href="#" onclick="alert('준비중인 기능입니다.')"><img src="../source/friendsP.png" style="width: 30px"></a>
 				</div>
 				<div class="plus_text">
 					추천친구
 				</div>
 			</div>
+		</div>
+		<div class="register">
+			<input type="text" name="friend_name" id="friend_name" placeholder="친구 이름 입력하시오">
+			<input type="button" value="등록" id="register_button" onclick="register()">
 		</div>
 	</div>
 	<friends class="friends">
@@ -72,8 +76,6 @@
 		</div>
 		<div class="birthday">
 			<p class="birthday_friends">생일인 친구</p>
-			<input type="text" name="friend_name" id="friend_name" placeholder="친구 이름 입력하시오">
-			<input type="button" value="등록" id="register_button" onclick="register()">
 			<ul class="birthday_list">
 				<p>
 					<img src="../source/profile.jpg">
@@ -88,7 +90,7 @@
 					<sapn>장원영</sapn>
 				</p>
 			</ul>
-			</div>
+			</>
 		<div class="bookmark">
 			<ul class="bookmark_friends">
 				<li>즐겨찾기</li>
@@ -122,49 +124,49 @@
 			</p>
 			<ul class="all_friends" id="all_friends">
 				<p>
-					<img src="../source/profile.jpg">
+					<a href="#"><img src="../source/profile.jpg">
 					고영민
-				</p>
+				</a></p>
 				<p>
-					<img src="../source/profile.jpg">
+					<a href="#"><img src="../source/profile.jpg">
 					권휘
-				</p>
+				</a></p>
 				<p>
-					<img src="../source/profile.jpg">
+					<a href="#"><img src="../source/profile.jpg">
 					김강률
-				</p>
+				</a></p>
 				<p>
-					<img src="../source/profile.jpg">
+					<a href="#"><img src="../source/profile.jpg">
 					김명신
-				</p>
+				</a></p>
 				<p>
-					<img src="../source/profile.jpg">
+					<a href="#"><img src="../source/profile.jpg">
 					김민규
-				</p>
+				</a></p>
 				<p>
-					<img src="../source/profile.jpg">
+					<a href="#"><img src="../source/profile.jpg">
 					김민석
-				</p>
+				</a></p>
 				<p>
-					<img src="../source/profile.jpg">
+					<a href="#"><img src="../source/profile.jpg">
 					김민혁
-				</p>
+				</a></p>
 				<p>
-					<img src="../source/profile.jpg">
+					<a href="#"><img src="../source/profile.jpg">
 					김인태
-				</p>
+				</a></p>
 				<p>
-					<img src="../source/profile.jpg">
+					<a href="#"><img src="../source/profile.jpg">
 					김재호
-				</p>
+				</a></p>
 				<p>
-					<img src="../source/profile.jpg">
+					<a href="#"><img src="../source/profile.jpg">
 					김재환
-				</p>
+				</a></p>
 				<p>
-					<img src="../source/profile.jpg">
+					<a href="#"><img src="../source/profile.jpg">
 					김태형
-				</p>
+				</a></p>
 				<p>
 					<img src="../source/profile.jpg">
 					문대원
